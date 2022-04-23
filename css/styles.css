@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #F1EFEF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  background-color: #006778;
+  color: #F1EFEF;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.mainStart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.mainStart .startButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.mainStart .login {
+  background-color: #006778;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.25rem;
+  box-shadow: 0px 2px 5px gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+.mainStart .signIn {
+  border: 1px solid #006778;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.25rem;
+  color: #006778;
+  box-shadow: 0px 2px 5px gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+.mainStart .imgFamily {
+  font-size: 150px;
+  color: #006778;
+}
+
+footer {
+  background-color: #006778;
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.loginForm div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.loginForm label {
+  color: #006778;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.loginForm input {
+  background: #FFFFFF;
+  border: 1px solid #006778;
+  border-radius: 10px;
+  width: 226px;
+  height: 38px;
+  padding-left: 20px;
+}
+.loginForm button {
+  background-color: #006778;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 1.25rem;
+  padding: 10px;
+  border: 1px solid #006778;
+}
+
+.backPage {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+}
+
+.homeSection {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.homeSection a {
+  text-decoration: none;
+}
+.homeSection article {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #006778;
+  margin-bottom: 30px;
+}
+.homeSection article div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #C4C4C4;
+  border: 3px solid #006778;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px gray;
+  margin-bottom: 10px;
+}
+.homeSection article i {
+  font-size: 50px;
+}
+
+.telSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+.telSection a {
+  text-decoration: none;
+  color: #006778;
+}
+.telSection article {
+  background-color: #C4C4C4;
+  width: 346px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #006778;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px gray;
+  padding: 0px 30px;
+}
+.telSection article div h3 {
+  margin-bottom: 10px;
+}
+.telSection article div p {
+  font-weight: bold;
+}
+.telSection article i {
+  font-size: 30px;
+}/*# sourceMappingURL=styles.css.map */
